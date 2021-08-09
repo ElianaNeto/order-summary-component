@@ -82,6 +82,7 @@ body {
   flex-direction: column;
 }
 .primary-button {
+    margin-top: 19px;
   height: 50px;
   width: 350px;
   color: white;
