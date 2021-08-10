@@ -144,9 +144,11 @@ body {
     display: flex;
     position: relative;
   }
+
   .card-container {
     width: 350px;
   }
+
   .image-container {
     width: 350px;
   }
