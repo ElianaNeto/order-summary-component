@@ -58,6 +58,8 @@ body {
 
 .price-card a {
   margin-left: 100px;
+  color: hsl(245, 75%, 52%);
+  text-decoration: none;
 }
 
 .price-card span {
