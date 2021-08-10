@@ -132,19 +132,9 @@ body {
 @media screen and (max-width: 375px) {
   body {
     margin: 0;
-    width: 100vw;
-    height: auto;
-    font-family: "Red Hat Display", sans-serif;
-    background: hsl(225, 100%, 94%);
-    background-repeat: no-repeat;
     background-size: 375px 340px;
-    background-image: url("../images/pattern-background-desktop.svg");
-    overflow: hidden;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    display: flex;
-    position: relative;
+    background-image: url("../images/pattern-background-mobile.svg");
+    
   }
 
   .card-container {
