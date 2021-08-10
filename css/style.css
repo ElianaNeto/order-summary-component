@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap");
 body {
   width: 100vw;
+  height: auto;
   font-family: "Red Hat Display", sans-serif;
   background: hsl(225, 100%, 94%);
   background-repeat: no-repeat;
@@ -12,6 +13,10 @@ body {
   text-align: center;
   display: flex;
   position: relative;
+}
+
+.title {
+  font-weight: 900;
 }
 
 .card-container {
@@ -71,25 +76,46 @@ body {
 .card-title {
   font-weight: bold;
   font-size: 16px;
+  font-weight: bold;
 }
 
 .card-price {
   font-weight: lighter;
   font-size: 16px;
 }
+
 .button-container {
   display: flex;
   flex-direction: column;
 }
 .primary-button {
-    margin-top: 19px;
+  margin-top: 19px;
+  margin-bottom: 19px;
   height: 50px;
   width: 350px;
   color: white;
   border: none;
   border-radius: 10px;
   background-color: hsl(245, 75%, 52%);
-  box-shadow: hsl(224, 23%, 55%);
+  box-shadow: hsl(248, 44%, 54%) 0px 25px 20px -20px;
+  padding: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.primary-button:hover {
+  background-color: hsl(245, 74%, 67%);
+}
+
+.price-card a:hover {
+  color: hsl(245, 74%, 67%);
+  text-decoration: none;
+}
+.secondary-button {
+  margin-bottom: 20px;
+  color: hsl(227, 9%, 60%);
+  font-weight: bold;
+  cursor: pointer;
 }
 
 .attribution {
