@@ -56,7 +56,5 @@ I learned to apply simple responsiveness 😅 🙃
 I plan to continue doing Frontend Mentor challenges to improve my html, css and js skills 💪🏿 ⚡️
 
 ## Author
-
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/ElianaNeto)
+- Frontend Mentor - [@ElianaNeto](https://www.frontendmentor.io/profile/ElianaNeto)
 - Twitter - [@eliana\_\_neto](https://twitter.com/eliana__neto)
