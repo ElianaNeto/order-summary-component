@@ -1,22 +1,21 @@
-@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap");
+/*@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap");*/
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500&display=swap");
+
 body {
-  width: 100vw;
-  height: auto;
-  font-family: "Red Hat Display", sans-serif;
-  background: hsl(225, 100%, 94%);
-  background-repeat: no-repeat;
-  background-size: 1300px 340px;
+  font-family: 'Red Hat Display', sans-serif;
+  background-color: hsl(225, 100%, 94%);
   background-image: url("../images/pattern-background-desktop.svg");
-  overflow: hidden;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  display: flex;
-  position: relative;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  margin-top: 7%;
+  margin-bottom: 5%;
 }
 
-.title {
+h1.title {
   font-weight: 900;
+  color: hsl(223, 47%, 23%);
+  margin-top: 40px;
+  font-size: 30px;
 }
 
 .card-container {
@@ -30,6 +29,8 @@ body {
   flex-direction: column;
   box-shadow: 0 10px 10px 0px hsla(245, 42%, 30%, 0.25);
   margin-bottom: 30px;
+  margin: auto;
+  text-align: center;
 }
 
 .image-container {
@@ -59,7 +60,6 @@ body {
 .price-card a {
   margin-left: 100px;
   color: hsl(245, 75%, 52%);
-  text-decoration: none;
 }
 
 .price-card span {
@@ -84,6 +84,7 @@ body {
 .card-price {
   font-weight: lighter;
   font-size: 16px;
+  color: hsl(227, 9%, 60%);
 }
 
 .button-container {

@@ -57,3 +57,5 @@ I plan to continue doing Frontend Mentor challenges to improve my html, css and 
 
 - Frontend Mentor - [@ElianaNeto](https://www.frontendmentor.io/profile/ElianaNeto)
 - Twitter - [@eliana\_\_neto](https://twitter.com/eliana__neto)
+
+**Have fun building!** 🚀
